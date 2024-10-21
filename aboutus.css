@@ -1,0 +1,45 @@
+/* Apply a full-page background image */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* To make text stand out on dark backgrounds */
+  }
+  
+  /* Style for the main table (About EduVault) */
+  .container table {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    color: black;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the three tables */
+  .fixed-size-table {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    color: black;
+    height: 350px; /* Equal height */
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for the tables */
+  }
+  
+  /* Padding and alignment for the text inside the tables */
+  .fixed-size-table h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .fixed-size-table p {
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .fixed-size-table {
+      height: auto;
+      margin-bottom: 20px;
+    }
+  }

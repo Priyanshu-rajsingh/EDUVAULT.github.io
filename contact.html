@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - EduVault</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+  <!-- Contact Us Section -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-8">
+          <h2 class="mb-4">Get In Touch</h2>
+          <p>If you have any questions, feel free to reach out to us. We're here to help!</p>
+        </div>
+      </div>
+      
+      <div class="row mt-5">
+        
+        <!-- Contact Form -->
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm p-4">
+            <h4 class="text-center mb-4">Send Us a Message</h4>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="John Doe">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message..."></textarea>
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <!-- Google Map or Office Address -->
+        <div class="col-md-6">
+          <div class="card shadow-sm p-4">
+            <h4 class="text-center mb-4">Visit Our Office</h4>
+            <!-- Google Map (Sample Embed Link) -->
+            <div class="map-container">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.4925808709754!2d-122.41941518467957!3d37.774929579759774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085816218c9f87b%3A0x7e373ca67f0fef2a!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2sin!4v1634327474231!5m2!1sen!2sin" 
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <div class="mt-4 text-center">
+              <p><strong>EduVault Office</strong></p>
+              <p>123 Main Street, Tech Park, City, Country</p>
+              <p>Email: info@eduvault.com</p>
+              <p>Phone: +123 456 7890</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
